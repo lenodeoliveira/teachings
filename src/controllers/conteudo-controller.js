@@ -1,6 +1,5 @@
 const rescue = require('express-rescue')
 const conteudoService = require('../service/conteudo-service')
-const jwt = require('jsonwebtoken');
 
 const conteudoController = rescue(async(req, res, _next) => {
     try {
