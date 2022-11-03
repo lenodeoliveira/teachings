@@ -4,6 +4,7 @@
 
 > After creating the environment variables, load the docker container using the command `docker-compose up --build -d` and then run the command `npx knex migrate:latest`, to create the database tables
 
+> finally run `npm start`
 
 Technologies used:
 * bcrypt
